@@ -1,6 +1,8 @@
 FROM ubuntu:16.04
 MAINTAINER Tom Kocmi <kocmi@ufal.mff.cuni.cz>
 
+ENV LANG C.UTF-8  
+
 RUN apt-get update && apt-get install -y \
 	cmake \
 	git \
